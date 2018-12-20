@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BBFE07421CAF4D900D0F493 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBFE07321CAF4D900D0F493 /* AppDelegate.swift */; };
+		5BBFE07621CAF4D900D0F493 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBFE07521CAF4D900D0F493 /* DashboardViewController.swift */; };
+		5BBFE07921CAF4DA00D0F493 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BBFE07721CAF4D900D0F493 /* Main.storyboard */; };
+		5BBFE07B21CAF4DC00D0F493 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BBFE07A21CAF4DC00D0F493 /* Assets.xcassets */; };
+		5BBFE07E21CAF4DC00D0F493 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BBFE07C21CAF4DC00D0F493 /* LaunchScreen.storyboard */; };
+		5BBFE08621CB3BC900D0F493 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBFE08521CB3BC900D0F493 /* Result.swift */; };
+		5BBFE08821CB3D6400D0F493 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBFE08721CB3D6400D0F493 /* Error.swift */; };
+		5BBFE08A21CB45D300D0F493 /* RealAssetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBFE08921CB45D300D0F493 /* RealAssetService.swift */; };
+		5BBFE08C21CB460B00D0F493 /* RealAssetParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBFE08B21CB460B00D0F493 /* RealAssetParser.swift */; };
+		5BBFE08E21CB462800D0F493 /* RealAssetDayParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBFE08D21CB462800D0F493 /* RealAssetDayParser.swift */; };
+		5BBFE09021CB465400D0F493 /* RealAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBFE08F21CB465400D0F493 /* RealAsset.swift */; };
+		5BBFE09221CB468800D0F493 /* RealAssetDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBFE09121CB468800D0F493 /* RealAssetDay.swift */; };
+		5BBFE09421CB46BC00D0F493 /* Portfolio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBFE09321CB46BC00D0F493 /* Portfolio.swift */; };
+		5BBFE09621CB47B700D0F493 /* PortfolioStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBFE09521CB47B700D0F493 /* PortfolioStorage.swift */; };
+		5BBFE09821CB493A00D0F493 /* NumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBFE09721CB493A00D0F493 /* NumberFormatter.swift */; };
+		BCBA3631C9163FD519CEAEF9 /* Pods_MiPlatica.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5CBEABBD93EDB4B2025A6CB /* Pods_MiPlatica.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5BBFE07021CAF4D900D0F493 /* MiPlatica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiPlatica.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BBFE07321CAF4D900D0F493 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5BBFE07521CAF4D900D0F493 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		5BBFE07821CAF4D900D0F493 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BBFE07A21CAF4DC00D0F493 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BBFE07D21CAF4DC00D0F493 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5BBFE07F21CAF4DC00D0F493 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BBFE08521CB3BC900D0F493 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		5BBFE08721CB3D6400D0F493 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		5BBFE08921CB45D300D0F493 /* RealAssetService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealAssetService.swift; sourceTree = "<group>"; };
+		5BBFE08B21CB460B00D0F493 /* RealAssetParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealAssetParser.swift; sourceTree = "<group>"; };
+		5BBFE08D21CB462800D0F493 /* RealAssetDayParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealAssetDayParser.swift; sourceTree = "<group>"; };
+		5BBFE08F21CB465400D0F493 /* RealAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealAsset.swift; sourceTree = "<group>"; };
+		5BBFE09121CB468800D0F493 /* RealAssetDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealAssetDay.swift; sourceTree = "<group>"; };
+		5BBFE09321CB46BC00D0F493 /* Portfolio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Portfolio.swift; sourceTree = "<group>"; };
+		5BBFE09521CB47B700D0F493 /* PortfolioStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioStorage.swift; sourceTree = "<group>"; };
+		5BBFE09721CB493A00D0F493 /* NumberFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFormatter.swift; sourceTree = "<group>"; };
+		DF98507BC71EE69F33CBEAF3 /* Pods-MiPlatica.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiPlatica.release.xcconfig"; path = "Pods/Target Support Files/Pods-MiPlatica/Pods-MiPlatica.release.xcconfig"; sourceTree = "<group>"; };
+		E0F1D90A2074F0AC7B249484 /* Pods-MiPlatica.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MiPlatica.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MiPlatica/Pods-MiPlatica.debug.xcconfig"; sourceTree = "<group>"; };
+		E5CBEABBD93EDB4B2025A6CB /* Pods_MiPlatica.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MiPlatica.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BBFE06D21CAF4D900D0F493 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCBA3631C9163FD519CEAEF9 /* Pods_MiPlatica.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52A1D38DCCAE69646FCE99E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5CBEABBD93EDB4B2025A6CB /* Pods_MiPlatica.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BBFE06721CAF4D900D0F493 = {
+			isa = PBXGroup;
+			children = (
+				5BBFE07221CAF4D900D0F493 /* MiPlatica */,
+				5BBFE07121CAF4D900D0F493 /* Products */,
+				E9D59D6BE62CBE886BA69EAC /* Pods */,
+				52A1D38DCCAE69646FCE99E6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5BBFE07121CAF4D900D0F493 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BBFE07021CAF4D900D0F493 /* MiPlatica.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BBFE07221CAF4D900D0F493 /* MiPlatica */ = {
+			isa = PBXGroup;
+			children = (
+				5BBFE09D21CB4B7000D0F493 /* AppDelegate */,
+				5BBFE09F21CB4B8200D0F493 /* Helpers */,
+				5BBFE09921CB4B3300D0F493 /* Models */,
+				5BBFE09A21CB4B4200D0F493 /* Network */,
+				5BBFE0A121CB4B9F00D0F493 /* Resources */,
+				5BBFE0A221CB4BB100D0F493 /* Storage */,
+				5BBFE0A021CB4B9A00D0F493 /* Storyboards */,
+				5BBFE09E21CB4B7700D0F493 /* ViewControllers */,
+				5BBFE07F21CAF4DC00D0F493 /* Info.plist */,
+			);
+			path = MiPlatica;
+			sourceTree = "<group>";
+		};
+		5BBFE09921CB4B3300D0F493 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5BBFE08721CB3D6400D0F493 /* Error.swift */,
+				5BBFE09121CB468800D0F493 /* RealAssetDay.swift */,
+				5BBFE08F21CB465400D0F493 /* RealAsset.swift */,
+				5BBFE09321CB46BC00D0F493 /* Portfolio.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5BBFE09A21CB4B4200D0F493 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5BBFE09B21CB4B4E00D0F493 /* Parsers */,
+				5BBFE09C21CB4B5900D0F493 /* Services */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		5BBFE09B21CB4B4E00D0F493 /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				5BBFE08B21CB460B00D0F493 /* RealAssetParser.swift */,
+				5BBFE08D21CB462800D0F493 /* RealAssetDayParser.swift */,
+			);
+			path = Parsers;
+			sourceTree = "<group>";
+		};
+		5BBFE09C21CB4B5900D0F493 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5BBFE08921CB45D300D0F493 /* RealAssetService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5BBFE09D21CB4B7000D0F493 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				5BBFE07321CAF4D900D0F493 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		5BBFE09E21CB4B7700D0F493 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5BBFE07521CAF4D900D0F493 /* DashboardViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5BBFE09F21CB4B8200D0F493 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5BBFE09721CB493A00D0F493 /* NumberFormatter.swift */,
+				5BBFE08521CB3BC900D0F493 /* Result.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		5BBFE0A021CB4B9A00D0F493 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				5BBFE07721CAF4D900D0F493 /* Main.storyboard */,
+				5BBFE07C21CAF4DC00D0F493 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		5BBFE0A121CB4B9F00D0F493 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5BBFE07A21CAF4DC00D0F493 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5BBFE0A221CB4BB100D0F493 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				5BBFE09521CB47B700D0F493 /* PortfolioStorage.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		E9D59D6BE62CBE886BA69EAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0F1D90A2074F0AC7B249484 /* Pods-MiPlatica.debug.xcconfig */,
+				DF98507BC71EE69F33CBEAF3 /* Pods-MiPlatica.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BBFE06F21CAF4D900D0F493 /* MiPlatica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BBFE08221CAF4DC00D0F493 /* Build configuration list for PBXNativeTarget "MiPlatica" */;
+			buildPhases = (
+				23E57A775A5D92D1D4686148 /* [CP] Check Pods Manifest.lock */,
+				5BBFE06C21CAF4D900D0F493 /* Sources */,
+				5BBFE06D21CAF4D900D0F493 /* Frameworks */,
+				5BBFE06E21CAF4D900D0F493 /* Resources */,
+				DD2D6ECF8FF60355EFB47A75 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiPlatica;
+			productName = MiPlatica;
+			productReference = 5BBFE07021CAF4D900D0F493 /* MiPlatica.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BBFE06821CAF4D900D0F493 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = x0000ff;
+				TargetAttributes = {
+					5BBFE06F21CAF4D900D0F493 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 5BBFE06B21CAF4D900D0F493 /* Build configuration list for PBXProject "MiPlatica" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BBFE06721CAF4D900D0F493;
+			productRefGroup = 5BBFE07121CAF4D900D0F493 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BBFE06F21CAF4D900D0F493 /* MiPlatica */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BBFE06E21CAF4D900D0F493 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BBFE07E21CAF4DC00D0F493 /* LaunchScreen.storyboard in Resources */,
+				5BBFE07B21CAF4DC00D0F493 /* Assets.xcassets in Resources */,
+				5BBFE07921CAF4DA00D0F493 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23E57A775A5D92D1D4686148 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MiPlatica-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD2D6ECF8FF60355EFB47A75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MiPlatica/Pods-MiPlatica-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MiPlatica/Pods-MiPlatica-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BBFE06C21CAF4D900D0F493 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BBFE08E21CB462800D0F493 /* RealAssetDayParser.swift in Sources */,
+				5BBFE09821CB493A00D0F493 /* NumberFormatter.swift in Sources */,
+				5BBFE08A21CB45D300D0F493 /* RealAssetService.swift in Sources */,
+				5BBFE08821CB3D6400D0F493 /* Error.swift in Sources */,
+				5BBFE08621CB3BC900D0F493 /* Result.swift in Sources */,
+				5BBFE09421CB46BC00D0F493 /* Portfolio.swift in Sources */,
+				5BBFE09221CB468800D0F493 /* RealAssetDay.swift in Sources */,
+				5BBFE07621CAF4D900D0F493 /* DashboardViewController.swift in Sources */,
+				5BBFE07421CAF4D900D0F493 /* AppDelegate.swift in Sources */,
+				5BBFE09021CB465400D0F493 /* RealAsset.swift in Sources */,
+				5BBFE09621CB47B700D0F493 /* PortfolioStorage.swift in Sources */,
+				5BBFE08C21CB460B00D0F493 /* RealAssetParser.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5BBFE07721CAF4D900D0F493 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BBFE07821CAF4D900D0F493 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5BBFE07C21CAF4DC00D0F493 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BBFE07D21CAF4DC00D0F493 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BBFE08021CAF4DC00D0F493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5BBFE08121CAF4DC00D0F493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BBFE08321CAF4DC00D0F493 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0F1D90A2074F0AC7B249484 /* Pods-MiPlatica.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EW6357LCE5;
+				INFOPLIST_FILE = MiPlatica/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pro.x0000ff.MiPlatica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BBFE08421CAF4DC00D0F493 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF98507BC71EE69F33CBEAF3 /* Pods-MiPlatica.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = EW6357LCE5;
+				INFOPLIST_FILE = MiPlatica/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pro.x0000ff.MiPlatica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BBFE06B21CAF4D900D0F493 /* Build configuration list for PBXProject "MiPlatica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BBFE08021CAF4DC00D0F493 /* Debug */,
+				5BBFE08121CAF4DC00D0F493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BBFE08221CAF4DC00D0F493 /* Build configuration list for PBXNativeTarget "MiPlatica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BBFE08321CAF4DC00D0F493 /* Debug */,
+				5BBFE08421CAF4DC00D0F493 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BBFE06821CAF4D900D0F493 /* Project object */;
+}

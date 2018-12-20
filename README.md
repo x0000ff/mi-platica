@@ -1,6 +1,11 @@
 # App `🤑 Mi Platica`
 
-![Demo gif](./img/Demo.gif)
+[![Swift](https://img.shields.io/badge/swift-4.2-brightgreen.svg?style=flat)](https://github.com/x0000ff/mi-platica)
+[![Platform](https://img.shields.io/badge/platform-ios>=9-blue.svg?style=flat)](https://github.com/x0000ff/mi-platica)
+
+| Screenshot | Demo |
+|------------|------|
+| ![Screenshot](./img/screenshot.png)| ![Demo gif](./img/demo.gif) |
 
 Simple app which uses great Fintual API: https://fintual.cl/api-docs.
 
@@ -14,6 +19,8 @@ func load() -> Portfolio? {
     
     let portfolio = Portfolio()
     portfolio.assetShares = [
+        AssetShares(realAssetId: "186", shares: 51.8675),
+        AssetShares(realAssetId: "187", shares: 493.9358),
         AssetShares(realAssetId: "2072", shares: 1655.6884),
         AssetShares(realAssetId: "282", shares: 205.4709),
         AssetShares(realAssetId: "3285", shares: 418.8769),
